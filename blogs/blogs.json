@@ -1,0 +1,11 @@
+{
+  "repo": "clockster",
+  "feeds": [
+    {
+      "source": "https://www.clockster.com/faq/category/for-administrators",
+      "error": "TimeoutError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}

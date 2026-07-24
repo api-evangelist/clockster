@@ -1,7 +1,25 @@
 aid: clockster
 name: Clockster
-description: Clockster is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Clockster is a frontline staff-management super-app for food & beverage and
+  retail businesses, consolidating attendance and time tracking, shift scheduling, automated
+  payroll, earned wage access, business communication, tasks and checklists into a single
+  mobile-first platform. Founded in 2018 and headquartered in Singapore with offices across
+  Kazakhstan and Indonesia, Clockster serves more than 1,300 SMEs across Central and Southeast
+  Asia — including brands such as KFC, Hardee's and Costa Coffee — and is backed by 500 Global,
+  I2BF Global Ventures and Quest Ventures. It is delivered as iOS, Android and Huawei mobile
+  apps plus a web console and currently exposes no public developer API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.clockster.com/clockster-en.png
 url: https://raw.githubusercontent.com/api-evangelist/clockster/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- HR
+- Workforce Management
+- Time Tracking
+- Attendance
+- Payroll
+- Scheduling
+- Staff Management
+- Retail
+- Food and Beverage
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://clockster.com
+  url: https://www.clockster.com
+- type: Login
+  url: https://app.clockster.com
+- type: SignUp
+  url: https://app.clockster.com/registration
+- type: Support
+  url: https://www.clockster.com/faq/category/for-administrators
+- type: Blog
+  url: https://www.clockster.com/en/blog
+- type: TermsOfService
+  url: https://app.clockster.com/terms-and-conditions?locale=en
+- type: PrivacyPolicy
+  url: https://app.clockster.com/privacy?locale=en
+- type: LinkedIn
+  url: https://www.linkedin.com/company/11690684/
+- type: DomainSecurity
+  url: security/clockster-domain-security.yml
+- type: LLMsTxt
+  url: llms/clockster-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
