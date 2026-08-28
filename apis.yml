@@ -8,6 +8,17 @@ description: Clockster is a frontline staff-management super-app for food & beve
   Asia — including brands such as KFC, Hardee's and Costa Coffee — and is backed by 500 Global,
   I2BF Global Ventures and Quest Ventures. It is delivered as iOS, Android and Huawei mobile
   apps plus a web console and currently exposes no public developer API surface.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
